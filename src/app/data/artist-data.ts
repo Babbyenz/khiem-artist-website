@@ -1,3 +1,15 @@
+import anhngoi from "../../assets/anhngoi.jpg";
+import anhchongcam from "../../assets/anhchongcam.jpg";
+import anhtrangden from "../../assets/anhtrangden.jpg";
+import anhcammic from "../../assets/anhcammic.jpg";
+import anhngoighe from "../../assets/anhngoighe.jpg";
+
+import AB1 from "../../assets/AB1.jpg";
+import AB2 from "../../assets/AB2.jpg";
+import AB3 from "../../assets/AB3.jpg";
+import AB4 from "../../assets/AB4.jpg";
+import AB5 from "../../assets/AB5.jpg";
+
 export interface MusicRelease {
   id: string;
   title: string;
@@ -88,16 +100,16 @@ export const initialArtistData: ArtistData = {
     },
   ],
   pressPhotos: [
-    "src/assets/anhngoi.jpg",
-    "src/assets/anhchongcam.jpg",
-    "src/assets/anhtrangden.jpg",
-    "src/assets/anhcammic.jpg",
-    "src/assets/AB1.jpg",
-    "src/assets/AB2.jpg",
-    "src/assets/AB3.jpg",
-    "src/assets/AB4.jpg",
-    "src/assets/AB5.jpg",
-    "src/assets/anhngoighe.jpg",
+    anhngoi,
+    anhchongcam,
+    anhtrangden,
+    anhcammic,
+    AB1,
+    AB2,
+    AB3,
+    AB4,
+    AB5,
+    anhngoighe,
   ],
   contact: {
     facebook: "facebook.com/khiemmusicofficial",

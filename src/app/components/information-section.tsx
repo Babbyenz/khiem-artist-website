@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { User, Calendar, MapPin, Music, Heart } from "lucide-react";
+import anhtt from "../../assets/anhtt.jpg";
 
 export function InformationSection() {
   const info = [
@@ -8,11 +9,7 @@ export function InformationSection() {
       value: "Lê Chí Khiêm",
       icon: <User className="w-5 h-5 text-orange-500" />,
     },
-    // {
-    //   label: "Stage Name",
-    //   value: "KHIEM",
-    //   icon: <Music className="w-5 h-5 text-orange-500" />,
-    // },
+
     {
       label: "Year of Birth",
       value: "2005",
@@ -93,7 +90,7 @@ export function InformationSection() {
           >
             <div className="rounded-3xl overflow-hidden border border-neutral-800">
               <img
-                src="src/assets/anhtt.jpg"
+                src={anhtt}
                 alt="KHIEM Artist"
                 className="w-full h-[500px] object-cover"
               />
